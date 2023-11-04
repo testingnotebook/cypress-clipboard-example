@@ -16,4 +16,4 @@ jobs:
       - name: Cypress Tests
         uses: cypress-io/github-action@v6
         with:
-          command: npm run test:tag1
+          command: npm t
