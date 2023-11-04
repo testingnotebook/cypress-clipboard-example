@@ -1,0 +1,26 @@
+{
+  "name": "cypress-clipboard-example",
+  "version": "1.0.0",
+  "description": "An example repo showing how to test copy to clipboard in Cypress tests.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --browser chrome"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingnotebook/cypress-clipboard-example.git"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testingnotebook/cypress-clipboard-example/issues"
+  },
+  "homepage": "https://github.com/testingnotebook/cypress-clipboard-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.3.0"
+  }
+}
