@@ -5,11 +5,7 @@ module.exports = defineConfig({
     projectId: 'ymfpgm',
     baseUrl: 'https://www.testingnotebook.com',
     setupNodeEvents(on, config) {
-      require('@cypress/grep/src/plugin')(config)
-      return config
-    },
-    env: {
-      grepFilterSpecs: true,
+      return null
     },
   },
 })

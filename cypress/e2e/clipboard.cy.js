@@ -20,9 +20,7 @@ const assertValueInClipboard = (value) => {
 
 describe('clipboard', () => {
   it('should copy "Aaron Williams" to clipboard', () => {
-    cy.visit(
-      'http://localhost:8080/posts/testing-copy-to-clipboard-with-cypress/',
-    )
+    cy.visit('/posts/testing-copy-to-clipboard-with-cypress/')
 
     grantClipboardPermissions()
 
