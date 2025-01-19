@@ -21,6 +21,6 @@
   "homepage": "https://github.com/testingnotebook/cypress-clipboard-example#readme",
   "dependencies": {},
   "devDependencies": {
-    "cypress": "^13.3.0"
+    "cypress": "^14.0.0"
   }
 }
