@@ -8,7 +8,7 @@ jobs:
       fail-fast: false
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
       - name: Cypress Tests
         uses: cypress-io/github-action@v6
         with:
