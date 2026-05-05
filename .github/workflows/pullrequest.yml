@@ -10,7 +10,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
       - name: Cypress Tests
-        uses: cypress-io/github-action@v7.2.0
+        uses: cypress-io/github-action@v7.3.0
         with:
           command: npm t
       - name: Upload screenshots
